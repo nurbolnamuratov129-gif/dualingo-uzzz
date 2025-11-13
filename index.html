@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Duolingo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>🦉 Duolingo Mini</h1>
+    <button id="startBtn">Boshlash</button>
+  </nav>
+
+  <main class="container">
+    <section id="intro">
+      <h2>Til o‘rganishga tayyormisiz?</h2>
+      <p>Testni boshlang va inglizcha so‘zlarni o‘rganing!</p>
+      <button id="startQuiz">Testni boshlash</button>
+    </section>
+
+    <section id="quiz" class="hidden">
+      <h2 id="question">Savol...</h2>
+      <div id="answers"></div>
+      <button id="nextBtn" class="hidden">Keyingi</button>
+    </section>
+
+    <section id="result" class="hidden">
+      <h2>Natijangiz:</h2>
+      <p id="score"></p>
+      <button id="restartBtn">Qayta boshlash</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Duolingo Mini | GPT-5 tomonidan yaratilgan 😊</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
